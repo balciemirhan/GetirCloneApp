@@ -1,1 +1,1 @@
-Getir Clone App
+Getir App
