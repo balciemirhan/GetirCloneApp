@@ -11,7 +11,7 @@ const index = () => {
     <View>
       <View style={styles.listContainer}>
         {categories.map(item => (
-          <CategoryItem key={item.id} item={item} />
+          <CategoryItem key={item.id} item={item}/>
         ))}
       </View>
     </View>
@@ -28,7 +28,5 @@ const styles = StyleSheet.create({
     alignItems: "flex-start",
   },
 });
-
-
 
 /* Bu kodda, useState hook'u categoriesGetir fonksiyonunu çağırır ve bu fonksiyonun dönüş değeri olan dizi, Category türünden bir dizi olarak belirtilir. Yani, categories değişkeni, Category türünden oluşan bir dizi olur. Ve bu dizi, categoriesGetir fonksiyonunun döndürdüğü verilerle eşleşir. Dolayısıyla, categories değişkeni, Category modeli ile uyumlu bir şekilde kullanılır. */

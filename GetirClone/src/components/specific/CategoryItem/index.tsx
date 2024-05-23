@@ -44,3 +44,8 @@ const index = ({ item }: categoryItemProps) => {
 };
 
 export default index;
+
+
+
+
+
